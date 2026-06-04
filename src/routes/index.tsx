@@ -130,14 +130,15 @@ function Index() {
           </h1>
 
           <div className="relative mt-8 flex justify-center">
-            <div className="absolute inset-x-0 bottom-0 mx-auto w-[420px] h-[420px] rounded-full bg-brand-soft" />
-            <img
-              src={jenny}
-              alt="Rakhiul, product designer"
-              width={520}
-              height={520}
-              className="relative w-[420px] h-[420px] object-contain object-bottom"
-            />
+            <div className="relative w-[420px] h-[420px] rounded-full bg-brand-soft overflow-hidden">
+              <img
+                src={jenny}
+                alt="Rakhiul, product designer"
+                width={520}
+                height={520}
+                className="absolute inset-x-0 bottom-0 mx-auto w-full h-full object-cover object-top"
+              />
+            </div>
 
             {/* Left testimonial */}
             <div className="hidden md:block absolute left-0 top-24 max-w-[220px] text-left">
@@ -200,9 +201,10 @@ function Index() {
       <section id="about" className="py-20">
         <div className="max-w-6xl mx-auto px-4">
           <div className="rounded-3xl bg-zinc-100 p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="relative">
-              <div className="absolute inset-x-0 bottom-0 mx-auto w-[280px] h-[280px] rounded-full bg-brand-soft" />
-              <img src={jennyPoint} alt="Rakhiul pointing" width={420} height={420} loading="lazy" className="relative mx-auto w-[320px] h-[320px] object-contain object-bottom" />
+            <div className="relative flex justify-center">
+              <div className="relative w-[320px] h-[320px] rounded-full bg-brand-soft overflow-hidden">
+                <img src={jenny} alt="Rakhiul" width={420} height={420} loading="lazy" className="absolute inset-0 w-full h-full object-cover object-top" />
+              </div>
             </div>
             <div>
               <h2 className="font-display font-bold text-4xl md:text-5xl">
