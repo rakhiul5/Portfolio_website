@@ -196,53 +196,6 @@ function Index() {
         </div>
       </section>
 
-      {/* WORK EXPERIENCE */}
-      <section id="resume" className="py-24">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-center font-display font-bold text-4xl md:text-5xl mb-16">
-            My <span className="text-brand">Work Experince</span>
-          </h2>
-
-          <div className="relative">
-            <div className="absolute left-1/2 top-2 bottom-2 w-px border-l border-dashed border-ink/20" />
-            <div className="space-y-12">
-              {experience.map((e, i) => (
-                <div key={e.company} className="grid grid-cols-2 gap-12 items-center relative">
-                  <span className="absolute left-1/2 -translate-x-1/2 size-5 rounded-full border-4 border-brand bg-white" />
-                  {i % 2 === 0 ? (
-                    <>
-                      <div className="text-right pr-8">
-                        <h3 className="font-semibold text-xl">{e.company}</h3>
-                        <p className="text-sm text-ink/60 mt-1">{e.date}</p>
-                      </div>
-                      <div className="pl-8">
-                        <h4 className="font-semibold text-lg">{e.role}</h4>
-                        <p className="text-sm text-ink/60 mt-1 max-w-xs">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate.
-                        </p>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="text-right pr-8">
-                        <h4 className="font-semibold text-lg">{e.role}</h4>
-                        <p className="text-sm text-ink/60 mt-1 max-w-xs ml-auto">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate.
-                        </p>
-                      </div>
-                      <div className="pl-8">
-                        <h3 className="font-semibold text-xl">{e.company}</h3>
-                        <p className="text-sm text-ink/60 mt-1">{e.date}</p>
-                      </div>
-                    </>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* WHY HIRE ME */}
       <section id="about" className="py-20">
         <div className="max-w-6xl mx-auto px-4">
