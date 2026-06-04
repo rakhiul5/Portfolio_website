@@ -77,9 +77,9 @@ function Logo() {
   return (
     <div className="flex items-center gap-2">
       <span className="inline-flex items-center justify-center size-9 rounded-full bg-brand text-white font-bold text-sm">
-        JC
+        RC
       </span>
-      <span className="font-bold tracking-wide">JCREA</span>
+      <span className="font-bold tracking-wide">RCREA</span>
     </div>
   );
 }
@@ -115,7 +115,7 @@ function Index() {
             Hello!
           </span>
           <h1 className="mt-4 font-display font-bold text-5xl md:text-7xl leading-tight">
-            I'm <span className="text-brand">Jenny,</span>
+            I'm <span className="text-brand">Rakhiul,</span>
             <br />
             Product Designer
           </h1>
@@ -124,7 +124,7 @@ function Index() {
             <div className="absolute inset-x-0 bottom-0 mx-auto w-[420px] h-[420px] rounded-full bg-brand-soft" />
             <img
               src={jenny}
-              alt="Jenny, product designer"
+              alt="Rakhiul, product designer"
               width={520}
               height={520}
               className="relative w-[420px] h-[420px] object-contain object-bottom"
@@ -134,7 +134,7 @@ function Index() {
             <div className="hidden md:block absolute left-0 top-24 max-w-[220px] text-left">
               <div className="text-brand text-3xl leading-none font-serif">"</div>
               <p className="text-sm text-ink/70 mt-1">
-                Jenny's Exceptional product design ensure our website's success.
+                Rakhiul's exceptional product design ensured our website's success.
               </p>
               <p className="text-sm font-semibold mt-2">Highly Recommended</p>
             </div>
