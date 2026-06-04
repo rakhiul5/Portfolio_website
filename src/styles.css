@@ -77,8 +77,8 @@
   --canvas: oklch(1 0 0);
   --ink: oklch(0.18 0.01 270);
   --accent-sage: oklch(0.46 0.03 150);
-  --brand: oklch(0.72 0.19 50);
-  --brand-soft: oklch(0.88 0.08 60);
+  --brand: oklch(0.55 0.14 250);
+  --brand-soft: oklch(0.82 0.07 250);
   --night: oklch(0.18 0.01 260);
   --background: var(--canvas);
   --foreground: var(--ink);

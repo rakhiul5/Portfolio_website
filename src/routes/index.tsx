@@ -12,10 +12,10 @@ import blog3 from "@/assets/blog-3.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Jenny — Product Designer Portfolio" },
-      { name: "description", content: "Portfolio of Jenny, a product designer with 10 years of experience in UI/UX, web and landing page design." },
-      { property: "og:title", content: "Jenny — Product Designer Portfolio" },
-      { property: "og:description", content: "Portfolio of Jenny, a product designer with 10 years of experience in UI/UX, web and landing page design." },
+      { title: "Rakhiul — Product Designer Portfolio" },
+      { name: "description", content: "Portfolio of Rakhiul, a product designer with 10 years of experience in UI/UX, web and landing page design." },
+      { property: "og:title", content: "Rakhiul — Product Designer Portfolio" },
+      { property: "og:description", content: "Portfolio of Rakhiul, a product designer with 10 years of experience in UI/UX, web and landing page design." },
     ],
   }),
   component: Index,
@@ -77,9 +77,9 @@ function Logo() {
   return (
     <div className="flex items-center gap-2">
       <span className="inline-flex items-center justify-center size-9 rounded-full bg-brand text-white font-bold text-sm">
-        JC
+        RC
       </span>
-      <span className="font-bold tracking-wide">JCREA</span>
+      <span className="font-bold tracking-wide">RCREA</span>
     </div>
   );
 }
@@ -110,12 +110,26 @@ function Index() {
 
       {/* HERO */}
       <section id="home" className="pt-16 pb-24 relative overflow-hidden">
+        {/* Decorative floating shapes */}
+        <div className="absolute top-20 left-10 size-3 rounded-full bg-brand/40 animate-bounce" style={{ animationDuration: '3s' }} />
+        <div className="absolute top-32 right-16 size-2 rounded-full bg-brand/60 animate-bounce" style={{ animationDuration: '2.5s' }} />
+        <div className="absolute bottom-40 left-16 size-4 rounded-full border-2 border-brand/30 animate-pulse" style={{ animationDuration: '4s' }} />
+        <div className="absolute top-48 right-10 size-3 rotate-45 bg-brand/20 animate-bounce" style={{ animationDuration: '3.5s' }} />
+        <div className="absolute bottom-60 right-24 size-2 rounded-full bg-brand/50 animate-pulse" />
+        <div className="absolute top-16 left-1/3 size-5 rounded-full border border-brand/25 animate-ping" style={{ animationDuration: '3s' }} />
+        <div className="absolute bottom-32 left-1/4 size-6 rounded-full bg-brand/10" />
+        <div className="absolute top-40 right-1/3 size-8 rounded-full bg-brand/10" />
+
+        {/* Decorative ring behind portrait */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full border border-dashed border-brand/20" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[560px] h-[560px] rounded-full border border-brand/10" />
+
         <div className="max-w-6xl mx-auto px-4 text-center relative">
           <span className="inline-block font-hand text-2xl px-5 py-1 rounded-full border border-ink/20">
             Hello!
           </span>
           <h1 className="mt-4 font-display font-bold text-5xl md:text-7xl leading-tight">
-            I'm <span className="text-brand">Jenny,</span>
+            I'm <span className="text-brand">Rakhiul,</span>
             <br />
             Product Designer
           </h1>
@@ -124,7 +138,7 @@ function Index() {
             <div className="absolute inset-x-0 bottom-0 mx-auto w-[420px] h-[420px] rounded-full bg-brand-soft" />
             <img
               src={jenny}
-              alt="Jenny, product designer"
+              alt="Rakhiul, product designer"
               width={520}
               height={520}
               className="relative w-[420px] h-[420px] object-contain object-bottom"
@@ -134,7 +148,7 @@ function Index() {
             <div className="hidden md:block absolute left-0 top-24 max-w-[220px] text-left">
               <div className="text-brand text-3xl leading-none font-serif">"</div>
               <p className="text-sm text-ink/70 mt-1">
-                Jenny's Exceptional product design ensure our website's success.
+                Rakhiul's exceptional product design ensured our website's success.
               </p>
               <p className="text-sm font-semibold mt-2">Highly Recommended</p>
             </div>
@@ -240,7 +254,7 @@ function Index() {
           <div className="rounded-3xl bg-zinc-100 p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="relative">
               <div className="absolute inset-x-0 bottom-0 mx-auto w-[280px] h-[280px] rounded-full bg-brand-soft" />
-              <img src={jennyPoint} alt="Jenny pointing" width={420} height={420} loading="lazy" className="relative mx-auto w-[320px] h-[320px] object-contain object-bottom" />
+              <img src={jennyPoint} alt="Rakhiul pointing" width={420} height={420} loading="lazy" className="relative mx-auto w-[320px] h-[320px] object-contain object-bottom" />
             </div>
             <div>
               <h2 className="font-display font-bold text-4xl md:text-5xl">
