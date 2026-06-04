@@ -165,3 +165,8 @@
     background-color: color-mix(in oklab, var(--accent-sage) 18%, transparent);
   }
 }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-33.333%); }
+}
