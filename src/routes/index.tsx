@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import rakhiulAsset from "@/assets/rakhiul.png.asset.json";
+import rakhiulAsset from "@/assets/rakhiul-cutout.png.asset.json";
 import jennyPoint from "@/assets/jenny-point.png";
 const jenny = rakhiulAsset.url;
 import svcUx from "@/assets/svc-ux.jpg";
