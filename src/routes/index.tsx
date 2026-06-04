@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import jenny from "@/assets/jenny.png";
+import rakhiulAsset from "@/assets/rakhiul.png.asset.json";
 import jennyPoint from "@/assets/jenny-point.png";
+const jenny = rakhiulAsset.url;
 import svcUx from "@/assets/svc-ux.jpg";
 import svcWeb from "@/assets/svc-web.jpg";
 import svcLanding from "@/assets/svc-landing.jpg";
@@ -37,12 +38,6 @@ const services = [
   { title: "UI/ UX Design", img: svcUx },
   { title: "Web Design", img: svcWeb },
   { title: "Landing Page", img: svcLanding },
-];
-
-const experience = [
-  { company: "Cognizant, Mumbai", date: "Sep 2016 - July 2020", role: "Experince Designer" },
-  { company: "Sugee Pvt limited, Mumbai", date: "Sep 2020 - July 2023", role: "UI/UX Designer" },
-  { company: "Cinetstox, Mumbai", date: "Sep 2023", role: "Lead UX Designer" },
 ];
 
 const filters = ["Landing Page", "Product Design", "Animation", "Glassmorphism", "Cards"];
