@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "asset_id": "313e1dd2-f9e2-4f14-80b4-05a50a53636a",
-  "project_id": "44efb38e-6609-4b83-9cef-f2ad0f09b36c",
-  "url": "/__l5e/assets-v1/313e1dd2-f9e2-4f14-80b4-05a50a53636a/rakhiul-cutout.png",
-  "r2_key": "a/v1/44efb38e-6609-4b83-9cef-f2ad0f09b36c/313e1dd2-f9e2-4f14-80b4-05a50a53636a/rakhiul-cutout.png",
-  "original_filename": "rakhiul-cutout.png",
-  "size": 1111218,
   "content_type": "image/png",
-  "created_at": "2026-06-04T18:45:14Z"
+  "created_at": "2026-06-04T18:45:14Z",
+  "original_filename": "rakhiul-cutout.png",
+  "project_id": "87b4425e-ba9e-4077-94ef-0bb3ea42f9e0",
+  "r2_key": "a/v1/87b4425e-ba9e-4077-94ef-0bb3ea42f9e0/313e1dd2-f9e2-4f14-80b4-05a50a53636a/rakhiul-cutout.png",
+  "size": 1111218,
+  "url": "/__l5e/assets-v1/313e1dd2-f9e2-4f14-80b4-05a50a53636a/rakhiul-cutout.png",
+  "version": 1
 }
